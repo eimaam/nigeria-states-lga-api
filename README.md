@@ -207,36 +207,6 @@ nigeria-states-lga/
 └── README.md
 ```
 
-## 🌍 Deployment to Vercel
-
-### Prerequisites
-
-1. Install Vercel CLI:
-```bash
-npm install -g vercel
-```
-
-2. Ensure you have a MongoDB Atlas cluster or other cloud MongoDB instance
-
-### Steps
-
-1. **Build the project:**
-```bash
-npm run build
-```
-
-2. **Update environment variables in Vercel:**
-```bash
-vercel env add MONGODB_URI
-vercel env add NODE_ENV
-vercel env add CORS_ORIGIN
-```
-
-3. **Deploy:**
-```bash
-vercel --prod
-```
-
 ### Environment Variables for Production
 
 Set these in your Vercel project settings:
@@ -284,7 +254,7 @@ MIT
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are 100% welcome! ❤️ Please feel free to submit a Pull Request & it'd be reviewed asap! 
 
 ## 📧 Support
 
