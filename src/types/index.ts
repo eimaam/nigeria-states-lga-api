@@ -21,12 +21,12 @@ export interface ILgaPopulated extends Omit<ILga, 'stateId'> {
 }
 
 export enum RegionEnum {
-  'North-Central' = 'North-Central',
-  'North-East' = 'North-East',
-  'North-West' = 'North-West',
-  'South-East' = 'South-East',
-  'South-South' = 'South-South',
-  'South-West' = 'South-West',
+  NORTH_CENTRAL = 'North-Central',
+  NORTH_EAST = 'North-East',
+  NORTH_WEST = 'North-West',
+  SOUTH_EAST = 'South-East',
+  SOUTH_SOUTH = 'South-South',
+  SOUTH_WEST = 'South-West',
 }
 
 export interface IApiResponse<T> {
